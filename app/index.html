@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css" media="screen">
+	<title>Portfolio</title>
+</head>
+<body>
+	<header class="main-page">
+		<h1 class="main-page__title">Привет, меня зовут<br> Андрей Харитонов!</h1>
+		<h2 class="main-page__title--descr">Я начинающий веб-разработчик.</h2>
+		<h4 class="title--next-block">Почитать обо мне, немного ниже</h4>
+		<a class="main-page__next-block" href="#about-me"></a>
+	</header>
+	<main>
+		<section class="about-me" id="about-me">
+			<h2 class="about-me__title">Обо мне</h2>
+			<p class="about-me__descr">
+				Путь в веб я начал поздно, в 30 лет. Первым местом, где получал знания, была HTML Academy. Прошел начальные курсы по Html, Css и немного JS. В дальнейшем понял, что их методика обучения не совсем мне подходит и продолжил обучаться самостоятельно. Купил книгу (новая большая книга по CSS) и при помощи интернета и книги начал писать небольшие лендинги. В дальнейшем захотел их немного оживить и в связи с этим погрузился в JS. Первое время читал документацию на learn.javascript, mdn, потом посоветовали курсы на Hexlet. На них и остановился. Сейчас к JS подключил React, чтобы лучше понимать основы языка, так как он там неплохо зайдействован, да и сам фреймворк понравился. В ближаийших планах выучить PHP и React Native.
+			</p>
+			<h4 class="title--next-block">Стек технологий и инструменты</h4>
+			<a class="about-me__next-block" href="#stack"></a>
+		</section>
+		<section class="stack" id="stack">
+			<h2 class="stack__title">Чем пользуюсь в работе</h2>
+			<div class="stack__wrapper">
+				<ul class="stack__list--instruments">
+					<li class="stack__list--title">Инстурменты:</li>
+					<li>Visual Studio Code</li>
+					<li>WebStorm</li>
+					<li>Photoshop</li>
+					<li>Adobe XD</li>
+					<li></li>
+				</ul>
+				<ul class="stack__list--technologies">
+					<li class="stack__list--title">Технологии:</li>
+					<li>Html5</li>
+					<li>CSS3: "Flex, Grid"</li>
+					<li>Sass</li>
+					<li>JavaScript</li>
+					<li>JQuery</li>
+					<li>React</li>
+					<li>Gulp</li>
+					<li>Git</li>
+				</ul>
+			</div>
+			<h4 class="title--next-block">Портфолио</h4>
+			<a class="stack__next-block" href="#portfolio"></a>
+		</section>
+		<section class="portfolio" id="portfolio">
+			<h2 class="portfolio__title">Портфолио</h2>
+			<ul class="portfolio__list">
+				<li class="portfolio__item">
+					<a href="https://rampelstillskin.github.io/cat-food.github.io/build/" class="portfolio__item--link">
+						<img src="./images/cat-energy2.jpg" alt="макет сайта" class="portfolio__item--photo">
+					</a>
+					<p class="portfolio__item--descr">
+							Небольшой трехстраничный сайт магазина с едой для кошек. Адаптивен под мобильные телефоны и планшеты. В каталоге реализованна подгрузка еды по кнопке "Показать ещё".
+					</p>
+				</li>
+				<li class="portfolio__item"></li>
+				<li class="portfolio__item"></li>
+			</ul>
+		</section>
+	</main>
+</body>
+</html>
