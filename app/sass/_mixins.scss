@@ -1,0 +1,46 @@
+@mixin background-border {
+	background-color: rgb(138, 149, 245);
+	border: 50px solid #000;
+	box-sizing: border-box;
+}
+
+@mixin hand-button {
+	content: "";
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	transform: rotate(180deg);
+	background-size: 100px;
+}
+
+@mixin title {
+	font-size: 5em;
+	font-family: Arcade, Arial, Helvetica, sans-serif;
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 200px;
+		height: 15px;
+		bottom: -20px;
+		left: 0;
+		background-color: #000;
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		width: 7px;
+		height: 7px;
+		bottom: -12px;
+		left: 193px;
+		background-color: rgb(138, 149, 245);
+	}	
+}
+
+@mixin site-layout {
+	width: 470px;
+	height: auto;
+	font-size: 1.5em;
+	font-family: Arcade, Arial, Helvetica, sans-serif;
+}
+

@@ -1,0 +1,296 @@
+@charset "UTF-8";
+/* ОБЩИЕ СТИЛИ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+blockquote {
+  margin: 0;
+}
+
+td {
+  vertical-align: top;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
+.title--next-block {
+  font-size: 1.5em;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: 'Arcade';
+  src: url("../fonts/EFNMacStyle8px.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.main-page {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 50% 35% 25%;
+      grid-template-rows: 50% 35% 25%;
+  background-color: #000;
+  padding-left: 50px;
+  border: 50px solid #8a95f5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #8a95f5;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+}
+
+.main-page__title {
+  font-size: 6.5em;
+  position: relative;
+}
+
+.main-page__title--descr {
+  font-size: 4em;
+}
+
+.main-page__next-block {
+  position: relative;
+}
+
+.main-page__next-block::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-size: 100px;
+  background: url("../images/hand2.svg") no-repeat;
+  bottom: 115px;
+  left: 300px;
+}
+
+.about-me {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 3fr 1fr;
+      grid-template-rows: 1fr 3fr 1fr;
+  padding: 0 50px;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+  background-color: #8a95f5;
+  border: 50px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.about-me__title {
+  font-size: 5em;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.about-me__title::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 15px;
+  bottom: -20px;
+  left: 0;
+  background-color: #000;
+}
+
+.about-me__title::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  bottom: -12px;
+  left: 193px;
+  background-color: #8a95f5;
+}
+
+.about-me__descr {
+  font-size: 2em;
+}
+
+.about-me__next-block {
+  position: relative;
+}
+
+.about-me__next-block::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-size: 100px;
+  background: url("../images/hand.svg") no-repeat;
+  bottom: 71px;
+  left: 285px;
+}
+
+.portfolio {
+  width: 100%;
+  height: 100vh;
+  padding: 0 50px;
+  background-color: #8a95f5;
+  border: 50px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.portfolio__title {
+  font-size: 5em;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.portfolio__title::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 15px;
+  bottom: -20px;
+  left: 0;
+  background-color: #000;
+}
+
+.portfolio__title::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  bottom: -12px;
+  left: 193px;
+  background-color: #8a95f5;
+}
+
+.portfolio__list {
+  display: -ms-grid;
+  display: grid;
+}
+
+.portfolio__item {
+  width: 470px;
+  height: auto;
+  font-size: 1.5em;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+}
+
+.portfolio__item--photo {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 15px solid #000;
+}
+
+.portfolio__item--descr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.stack {
+  width: 100%;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 3fr 1fr;
+      grid-template-rows: 1fr 3fr 1fr;
+  padding: 0 50px;
+  background-color: #8a95f5;
+  border: 50px solid #000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.stack__title {
+  font-size: 5em;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.stack__title::before {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 15px;
+  bottom: -20px;
+  left: 0;
+  background-color: #000;
+}
+
+.stack__title::after {
+  content: "";
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  bottom: -12px;
+  left: 193px;
+  background-color: #8a95f5;
+}
+
+.stack__wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+}
+
+.stack__wrapper {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  font-size: 1.6em;
+  font-family: Arcade, Arial, Helvetica, sans-serif;
+}
+
+.stack__wrapper .stack__list--title {
+  font-size: 2em;
+}
+
+.stack__next-block {
+  position: relative;
+}
+
+.stack__next-block::after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  background-size: 100px;
+  background: url("../images/hand.svg") no-repeat;
+  bottom: 67px;
+  left: 95px;
+}
+/*# sourceMappingURL=style.css.map */

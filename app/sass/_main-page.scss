@@ -1,0 +1,30 @@
+.main-page {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 50% 35% 25%;
+	background-color: #000;
+	padding-left:  50px;
+	border: 50px solid rgb(138, 149, 245);
+	box-sizing: border-box;
+	color: rgb(138, 149, 245);
+	font-family: Arcade, Arial, Helvetica, sans-serif;
+
+	&__title {
+		font-size: 6.5em;
+		position: relative;
+	}	
+	&__title--descr {
+		font-size: 4em;
+	}
+}
+
+.main-page__next-block {
+	position: relative;
+	&::after {
+		@include hand-button;
+		background: url("../images/hand2.svg") no-repeat;
+		bottom: 115px;
+		left: 300px;
+	}
+}
