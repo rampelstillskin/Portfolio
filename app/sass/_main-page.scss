@@ -5,9 +5,9 @@
 	grid-template-rows: 50% 35% 25%;
 	background-color: #000;
 	padding-left:  50px;
-	border: 50px solid rgb(138, 149, 245);
+	border: 50px solid $main-color;
 	box-sizing: border-box;
-	color: rgb(138, 149, 245);
+	color: $main-color;
 	font-family: Arcade, Arial, Helvetica, sans-serif;
 
 	&__title {
@@ -19,12 +19,11 @@
 	}
 }
 
-.main-page__next-block {
-	position: relative;
+.hand__main-page {
 	&::after {
-		@include hand-button;
-		background: url("../images/hand2.svg") no-repeat;
-		bottom: 115px;
-		left: 300px;
+		background: url("../images/hand-main.svg") no-repeat;
+		background-size: 100px;
+		bottom: 110px;
+		left: 337px;
 	}
 }

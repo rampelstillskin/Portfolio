@@ -16,13 +16,8 @@
 	}
 }
 
-.about-me__next-block{
-	position: relative;
-	
+.about-me__hand {
 	&::after {
-		@include hand-button;
-		background: url("../images/hand.svg") no-repeat;
-		bottom: 71px;
-		left: 285px;
+		left: 330px;
 	}
 }
