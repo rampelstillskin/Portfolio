@@ -1,24 +1,25 @@
 .stack {
 	width: 100%;
 	height: 100vh;
-	display: grid;
-	grid-template-rows: 1fr 3fr 1fr;
 	padding: 0 50px;
 	@include background-border;
+
+	&__wrapper {
+		max-width: 1300px;
+		display: grid;
+		grid-template-rows: 1fr 2.5fr 1fr;
+		align-items: center;
+		margin: 0 auto;
+	}
 	
 	&__title {
 		@include title;
 	}
 }
 
-.stack__wrapper {
+.stack__list__wrapper {
 	display: grid;
 	grid-template-columns: 50% 50%;
-}
-
-.stack__wrapper {
-	display: grid;
-	justify-items: center;
 	font-size: 1.6em;
 	font-family: Arcade, Arial, Helvetica, sans-serif;
 
@@ -27,8 +28,11 @@
 	}
 }
 
-.hand__stack {
-	&::after {
-		left: 115px;
-	}
+.stack__list--instruments {
+	padding-left: 0;
+}
+
+
+.hand__stack::after {
+	left: 115px;
 }
