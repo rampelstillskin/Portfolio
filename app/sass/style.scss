@@ -4,11 +4,8 @@ html {
 }
 
 body {
-  min-width: 320px;
   margin: 0;
   padding: 0;
-  font-size: 15px;
-	font-family: "Open Sans", sans-serif;
 }
 
 li {
@@ -39,15 +36,12 @@ td {
   margin: -1px;
 }
 
-.title--next-block {
-	font-size: 1.5em;
-	font-family: Arcade, Arial, Helvetica, sans-serif;
-}
-
 @import "fonts";
 @import "mixins";
+@import "variables";
 
 @import "main-page";
 @import "about-me";
 @import "portfolio";
 @import "stack";
+@import "footer";
