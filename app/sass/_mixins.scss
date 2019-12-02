@@ -1,16 +1,7 @@
 @mixin background-border {
 	background-color: rgb(138, 149, 245);
-	border: 50px solid #000;
+	border: 30px solid #000;
 	box-sizing: border-box;
-}
-
-@mixin hand-button {
-	content: "";
-	width: 100px;
-	height: 100px;
-	position: absolute;
-	transform: rotate(180deg);
-	background-size: 100px;
 }
 
 @mixin title {
@@ -38,9 +29,7 @@
 }
 
 @mixin site-layout {
-	width: 470px;
-	height: auto;
+	max-width: 350px;
 	font-size: 1.5em;
 	font-family: Arcade, Arial, Helvetica, sans-serif;
 }
-
