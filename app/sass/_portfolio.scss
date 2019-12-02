@@ -3,6 +3,10 @@
 	height: auto;
 	padding: 0 50px;
 	@include background-border;
+	
+	@media (max-width: $mobile) {
+		border: 15px solid #000;
+	}
 
 	&__wrapper {
 		max-width: 1300px;
@@ -10,10 +14,19 @@
 		grid-template-rows: 1fr 3fr;
 		align-items: center;
 		margin: 0 auto;
+		@media (max-width: $tablet) {
+			grid-template-rows: .5fr 3fr;
+		}
+		@media (max-width: $mobile) {
+			grid-template-rows: .1fr 2fr;
+		}
 	}
 
 	&__title {
 		@include title;
+		@media (max-width: $mobile) {
+			font-size: 3em;
+		}
 	}
 }
 
@@ -23,6 +36,9 @@
 	grid-gap: 50px;
 	justify-items: center;
 	padding: 0;
+	@media (max-width: $mobile) {
+		grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+	}
 }
 
 .portfolio__item {

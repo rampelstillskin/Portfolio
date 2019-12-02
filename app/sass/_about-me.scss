@@ -5,20 +5,40 @@
 	font-family: Arcade, Arial, Helvetica, sans-serif;
 	@include background-border;
 
+	@media (max-width: $tablet) {
+		height: 100%;
+	}
+	@media (max-width: $mobile) {
+		padding: 0 30px;
+		border: 15px solid #000;
+	}
+
 	&__wrapper {
 		max-width: 1300px;
 		display: grid;
 		grid-template-rows: .5fr 1fr 1fr;
 		align-items: center;
 		margin: 0 auto;
+		@media (max-width: 850px) {
+			grid-template-rows: .5fr 1.5fr 1fr;
+		}
+		@media (max-width: $mobile) {
+			grid-template-rows: .3fr .8fr .3fr;
+		}
 	}
 
 	&__title {
 		@include title;
+		@media (max-width: $mobile) {
+			font-size: 3.5em;
+		}
 	}
 
 	&__descr {
 		font-size: 1.5em;
+		@media (max-width: $mobile) {
+			font-size: 1.1em;
+		}
 	}
 }
 
@@ -29,5 +49,10 @@
 
 	&__list {
 		display: grid;
+	}
+	@media (max-width: $mobile) {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr;
+		padding: 0 0 30px 0;
 	}
 }
