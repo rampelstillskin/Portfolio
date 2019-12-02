@@ -1,7 +1,7 @@
 {
-  "name": "cat-food",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "My first project",
+  "description": "",
   "main": "gulpfile.js",
   "dependencies": {
     "del": "^4.1.1",

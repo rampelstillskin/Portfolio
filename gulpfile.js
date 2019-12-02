@@ -47,7 +47,8 @@ gulp.task('serve', () => {
 
 gulp.task('copy', () => gulp.src([
   'app/*.html',
-  'app/fonts/**/*.woff',
+	'app/fonts/**/*.woff',
+  'app/fonts/**/*.woff2',
   'app/images/**',
   'app/js/**',
   'app/css/*.css',
