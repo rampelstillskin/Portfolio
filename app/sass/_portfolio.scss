@@ -108,5 +108,8 @@
 		margin: 0;
 		padding: 30px 15px;
 		box-sizing: border-box;
+		@media (max-width: $mobile) {
+			font-size: .7em;
+		}
 	}
 }
