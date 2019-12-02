@@ -5,6 +5,7 @@
 	@include background-border;
 	
 	@media (max-width: $mobile) {
+		padding: 0 30px;
 		border: 15px solid #000;
 	}
 
@@ -110,6 +111,7 @@
 		box-sizing: border-box;
 		@media (max-width: $mobile) {
 			font-size: .7em;
+			padding: 15px 10px;
 		}
 	}
 }

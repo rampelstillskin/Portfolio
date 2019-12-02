@@ -275,6 +275,7 @@ td {
 
 @media (max-width: 550px) {
   .portfolio {
+    padding: 0 30px;
     border: 15px solid #000;
   }
 }
@@ -443,6 +444,7 @@ td {
 @media (max-width: 550px) {
   .portfolio__item--descr {
     font-size: .7em;
+    padding: 15px 10px;
   }
 }
 

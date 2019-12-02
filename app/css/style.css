@@ -185,6 +185,7 @@ td {
           box-sizing: border-box; }
   @media (max-width: 550px) {
     .portfolio {
+      padding: 0 30px;
       border: 15px solid #000; } }
   .portfolio__wrapper {
     max-width: 1300px;
@@ -309,7 +310,8 @@ td {
             box-sizing: border-box; }
     @media (max-width: 550px) {
       .portfolio__item--descr {
-        font-size: .7em; } }
+        font-size: .7em;
+        padding: 15px 10px; } }
 
 .stack {
   width: 100%;
