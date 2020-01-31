@@ -1,105 +1,152 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<link rel="stylesheet" href="./css/style.css" media="screen">
-	<title>Portfolio</title>
-</head>
-<body>
-	<header class="main-page">
-		<h1 class="main-page__title">Привет, меня зовут<br> Андрей Харитонов!</h1>
-		<h2 class="main-page__title--descr">Я начинающий веб-разработчик.</h2>
-		<h4 class="title--next-block">Почитать обо мне, немного ниже</h4>
-		<a class="hand__next-block" href="#about-me"></a>
-	</header>
-	<main>
-		<section class="about-me" id="about-me">
-			<div class="about-me__wrapper">
-				<h2 class="about-me__title">Обо мне</h2>
-				<p class="about-me__descr">
-					Путь в веб я начал поздно, в 30 лет. Первым местом, где получал знания, была HTML Academy. Прошел начальные курсы по Html, Css и немного JS. В дальнейшем понял, что их методика обучения не совсем мне подходит и продолжил обучаться самостоятельно. Купил книгу (новая большая книга по CSS) и при помощи интернета и начал писать небольшие лендинги. В дальнейшем захотел их немного оживить и в связи с этим погрузился в JS. Первое время читал документацию на learn.javascript, mdn, потом посоветовали курсы на Hexlet. На них и остановился. Сейчас к JS подключил React, чтобы лучше понимать основы языка, так как он там неплохо зайдействован, да и сам фреймворк понравился. В ближаийших планах выучить PHP и React Native.
-				</p>
-				<ul class="skills-instruments">
-					<li class="skills-instruments__list">
-						<h4 class="skills-instruments__title">Мои знания:</h4>
-						<span>Html5</span>
-						<span>CSS3</span>
-						<span>Sass</span>
-						<span>JavaScript</span>
-						<span>React</span>
-						<span>JQuery</span>
-						<span>Gulp</span>
-						<span>Git</span>
-					</li>
-					<li class="skills-instruments__list">
-						<h4 class="skills-instruments__title">Что использую в работе:</h4>
-						<span>Visual Studio Code</span>
-						<span>WebStorm</span>
-						<span>Photoshop</span>
-						<span>Adobe XD</span>
-						<span>Lunacy</span>
-						<span>Cmder</span>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<section class="portfolio" id="portfolio">
-			<div class="portfolio__wrapper">
-				<h2 class="portfolio__title">Портфолио</h2>
-				<ul class="portfolio__list">
-					<li class="portfolio__item">
-						<div class=portfolio__item__wrapper>
-							<a href="https://rampelstillskin.github.io/cat-food/build/" class="portfolio__item--link">
-								<img src="./images/catfood.jpg" alt="макет сайта" class="portfolio__item--photo">
-							</a>
-							<p class="portfolio__item--descr">
-								Небольшой трехстраничный сайт магазина с едой для кошек. Адаптивен под мобильные телефоны и планшеты. В каталоге реализованна подгрузка еды по кнопке "Показать ещё".
-							</p>
-						</div>
-					</li>
-					<li class="portfolio__item">
-						<div class=portfolio__item__wrapper>
-							<a href="https://rampelstillskin.github.io/custom-knitwear/build/" class="portfolio__item--link">
-								<img src="./images/knitwear.jpg" alt="макет сайта" class="portfolio__item--photo">
-							</a>
-							<p class="portfolio__item--descr">
-									Адаптивный сайт, построенный с использованием Html5, css3(Sass), JS. Три страницы: основная, страница с каталогом и страница с заказом.
-							</p>
-						</div>
-					</li>
-					<li class="portfolio__item">
-						<div class=portfolio__item__wrapper>
-							<a href="https://rampelstillskin.github.io/gadget-store/build/index.html" class="portfolio__item--link">
-								<img src="./images/device.jpg" alt="макет сайта" class="portfolio__item--photo">
-							</a>
-							<p class="portfolio__item--descr">
-								Один из первых проектов с использованием jQuery. Карусель топ товаров и фильтр стоимости реализован на jquery. Две страницы: основная и каталог с моноподами. Адаптации под мобильные устройства отсутсвуют.
-							</p>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</section>
-	</main>
-	<footer class="contact" id="contact">
-		<div class="contact__wrapper">
-			<ul class="contact__list">
-				<li class="contact__item">
-					<a href="https://github.com/rampelstillskin" class="contact__link github"></a>
-				</li>
-				<li class="contact__item">
-					<a href="https://vk.com/woong" class="contact__link vk"></a>
-				</li>
-				<li class="contact__item">
-					<a href="http://t.me/andreyharitonov" class="contact__link telegram"></a>
-				</li>
-				<li class="contact__item">
-					<a href="mailto:rampelstillskin@gmail.com" class="contact__link gmail"></a>
-				</li>	
-			</ul>
-		</div>
-	</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/style.css" media="screen" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="main-page">
+      <div class="main-page__wrapper">
+        <h1 class="main-page__title">
+          Привет, меня зовут<br />
+          Андрей Харитонов!
+        </h1>
+        <h2 class="main-page__title--descr">Я начинающий веб-разработчик.</h2>
+        <h4 class="title__next-block">Почитать обо мне, немного ниже</h4>
+        <a class="hand__next-block" href="#about-me"></a>
+      </div>
+    </header>
+    <main>
+      <section class="about-me" id="about-me">
+        <div class="about-me__wrapper">
+          <h2 class="about-me__title">Обо мне</h2>
+          <p class="about-me__descr">
+            Обучался на HTML Academy. Прошел начальные курсы по Html, Css и
+            немного JS. Написал несколько простых-статических сайтов. После
+            перешел на курсы Hexlet. На них и остановился. К JS подключил React,
+            для лучшего понимания основ языка, так как он там неплохо
+            зайдействован, да и сама библиотека понравилась. В данный момент,
+            кроме JS, изучаю PHP.
+          </p>
+          <ul class="skills-instruments">
+            <li class="skills-instruments__list">
+              <h4 class="skills-instruments__title">Мои знания:</h4>
+              <span>Html5</span>
+              <span>CSS3</span>
+              <span>Sass</span>
+              <span>JavaScript</span>
+              <span>React</span>
+              <span>JQuery</span>
+              <span>Gulp</span>
+              <span>Git</span>
+            </li>
+            <li class="skills-instruments__list">
+              <h4 class="skills-instruments__title">Что использую в работе:</h4>
+              <span>Visual Studio Code</span>
+              <span>WebStorm</span>
+              <span>Photoshop</span>
+              <span>Adobe XD</span>
+              <span>Lunacy</span>
+              <span>Cmder</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio__wrapper">
+          <h2 class="portfolio__title">Портфолио</h2>
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <div class="portfolio__item__wrapper">
+                <a
+                  href="https://rampelstillskin.github.io/cat-food/build/"
+                  class="portfolio__item--link"
+                >
+                  <img
+                    src="./images/catfood.jpg"
+                    alt="макет сайта"
+                    class="portfolio__item--photo"
+                  />
+                </a>
+                <p class="portfolio__item--descr">
+                  Небольшой трехстраничный сайт магазина с едой для кошек.
+                  Адаптивен под мобильные телефоны и планшеты. В каталоге
+                  реализованна подгрузка еды по кнопке "Показать ещё".
+                </p>
+              </div>
+            </li>
+            <li class="portfolio__item">
+              <div class="portfolio__item__wrapper">
+                <a
+                  href="https://rampelstillskin.github.io/custom-knitwear/build/"
+                  class="portfolio__item--link"
+                >
+                  <img
+                    src="./images/knitwear.jpg"
+                    alt="макет сайта"
+                    class="portfolio__item--photo"
+                  />
+                </a>
+                <p class="portfolio__item--descr">
+                  Адаптивный сайт, построенный с использованием Html5,
+                  css3(Sass), JS. Три страницы: основная, страница с каталогом и
+                  страница с заказом.
+                </p>
+              </div>
+            </li>
+            <li class="portfolio__item">
+              <div class="portfolio__item__wrapper">
+                <a
+                  href="https://rampelstillskin.github.io/gadget-store/build/index.html"
+                  class="portfolio__item--link"
+                >
+                  <img
+                    src="./images/device.jpg"
+                    alt="макет сайта"
+                    class="portfolio__item--photo"
+                  />
+                </a>
+                <p class="portfolio__item--descr">
+                  Один из первых проектов с использованием jQuery. Карусель топ
+                  товаров и фильтр стоимости реализован на jquery. Две страницы:
+                  основная и каталог с моноподами. Адаптации под мобильные
+                  устройства отсутсвуют.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="contact" id="contact">
+      <div class="contact__wrapper">
+        <ul class="contact__list">
+          <li class="contact__item">
+            <a
+              href="https://github.com/rampelstillskin"
+              class="contact__link github"
+            ></a>
+          </li>
+          <li class="contact__item">
+            <a href="https://vk.com/woong" class="contact__link vk"></a>
+          </li>
+          <li class="contact__item">
+            <a
+              href="http://t.me/andreyharitonov"
+              class="contact__link telegram"
+            ></a>
+          </li>
+          <li class="contact__item">
+            <a
+              href="mailto:rampelstillskin@gmail.com"
+              class="contact__link gmail"
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
