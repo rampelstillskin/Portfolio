@@ -10,7 +10,7 @@ const gulp 							= require('gulp'),
 
 gulp.task('clean', () => del('build'));
 
-gulp.task('sass', () => gulp.src('app/sass/**/*.scss')
+gulp.task('sass', () => gulp.src('app/scss/**/*.scss')
   .pipe(plumber())
   .pipe(sass())
   .pipe(autoprefixer({
@@ -41,7 +41,7 @@ gulp.task('serve', () => {
       baseDir: './app',
     },
   });
-  gulp.watch('app/sass/**/*.scss', gulp.series('sass'));
+  gulp.watch('app/scss/**/*.scss', gulp.series('sass'));
   gulp.watch('app/*.html').on('change', browserslist.reload);
 });
 

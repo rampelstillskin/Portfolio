@@ -1,1 +1,18 @@
-<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 595.3 841.9" xml:space="preserve"><style>.st0{fill:#8a95f5;stroke:#000;stroke-miterlimit:10}</style><path class="st0" d="M189.3 216.1h16.6v241.4h-16.6V216.1zm65.4 0h16.6v200.3h-16.6V216.1zm-48.9-17.2h48.8v17.2h-48.8v-17.2z"/><path class="st0" d="M271 293.9h40.5v15.8H271v-15.8z"/><path class="st0" d="M309 308.9h51.2v16.5H309v-16.5zm54.6 15.8h41.5V342h-41.5v-17.3z"/><path class="st0" d="M309.1 323.3h16.6v81.3h-16.6v-81.3zm79.4 193h16.6v81.3h-16.6v-81.3zm-28.3-190.8h16.6v114.9h-16.6V325.5zm44.9 15.8h16.6v17.2h-16.6v-17.2zM119 423.2h16.6v17.2H119v-17.2zm302.7-63.9h16.6V478h-16.6V359.3zm-16.6 119.4h16.6v37.6h-16.6v-37.6zm-219.8 74.5h16.6v44.5h-16.6v-44.5zm-49.7-112.8h16.6V478h-16.6v-37.6zm16.6 37.6h16.6v37.6h-16.6V478zm16.5 37.6h16.6v37.6h-16.6v-37.6zm-9.3-134.5h29.9v17.2h-29.9v-17.2zM103 363.9h56.4v17.2H103v-17.2z"/><path class="st0" d="M102.4 379.5H119v43.7h-16.6v-43.7zm100.2 200.8h185.3v17.2H202.6v-17.2z"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.3 841.9" style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FCFCFC;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<path class="st0" d="M351.4,580.5h-16.6V339.1h16.6V580.5z M286,580.5h-16.6V380.2H286V580.5z M334.9,597.7h-48.8v-17.2h48.8V597.7z
+	"/>
+<path class="st0" d="M269.7,502.7h-40.5v-15.8h40.5V502.7z"/>
+<path class="st0" d="M231.7,487.7h-51.2v-16.5h51.2V487.7z M177.1,471.9h-41.5v-17.3h41.5V471.9L177.1,471.9z"/>
+<path class="st0" d="M231.6,473.3H215V392h16.6V473.3z M152.2,280.3h-16.6V199h16.6V280.3z M180.5,471.1h-16.6V356.2h16.6V471.1z
+	 M135.6,455.3H119v-17.2h16.6V455.3z M421.7,373.4h-16.6v-17.2h16.6V373.4z M119,437.3h-16.6V318.6H119V437.3L119,437.3z
+	 M135.6,317.9H119v-37.6h16.6V317.9L135.6,317.9z M355.4,243.4h-16.6v-44.5h16.6V243.4z M405.1,356.2h-16.6v-37.6h16.6V356.2
+	L405.1,356.2z M388.5,318.6h-16.6V281h16.6V318.6L388.5,318.6z M372,281h-16.6v-37.6H372V281z M381.3,415.5h-29.9v-17.2h29.9V415.5z
+	 M437.7,432.7h-56.4v-17.2h56.4V432.7z"/>
+<path class="st0" d="M438.3,417.1h-16.6v-43.7h16.6V417.1z M338.1,216.3H152.8v-17.2h185.3V216.3z"/>
+</svg>
