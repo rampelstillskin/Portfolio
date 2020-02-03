@@ -48,6 +48,7 @@ td {
   width: 100%;
   height: 100vh;
   background-color: #000;
+  padding: 0 50px;
   border: 30px solid #8a95f5;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -55,42 +56,34 @@ td {
   font-family: Arcade, Arial, Helvetica, sans-serif;
 }
 
-@media (max-width: 550px) {
-  .main-page {
-    border: 15px solid #8a95f5;
-  }
-}
-
 .main-page__wrapper {
-  max-width: 1300px;
+  width: 100%;
   height: 100%;
-  margin: 0 auto;
-  padding: 50px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 50% 30% 20%;
-      grid-template-rows: 50% 30% 20%;
-  position: relative;
+  -ms-grid-rows: 60% 25% 15%;
+      grid-template-rows: 60% 25% 15%;
 }
 
 @media (max-width: 850px) {
-  .main-page__wrapper {
-    -ms-grid-rows: 50% 25% 15%;
-        grid-template-rows: 50% 25% 15%;
+  .main-page {
+    -ms-grid-rows: 60% 25% 15%;
+        grid-template-rows: 60% 25% 15%;
+    border: 30px solid #8a95f5;
   }
 }
 
 @media (max-width: 550px) {
-  .main-page__wrapper {
-    -ms-grid-rows: 40% 20% 15%;
-        grid-template-rows: 40% 20% 15%;
+  .main-page {
+    border: 15px solid #8a95f5;
+    -ms-grid-rows: 50% 30% 20%;
+        grid-template-rows: 50% 30% 20%;
   }
 }
 
 .main-page__title {
   font-size: 6.5em;
   position: relative;
-  margin-top: 30px;
 }
 
 @media (max-width: 1150px) {
@@ -122,10 +115,7 @@ td {
 }
 
 .title__next-block {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-family: Arcade, Arial, Helvetica, sans-serif;
 }
 
@@ -140,7 +130,7 @@ td {
   position: absolute;
   background: url("../images/hand-main.svg") no-repeat;
   background-size: 100px;
-  bottom: 3.5em;
+  bottom: 35px;
   right: 0;
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
@@ -149,8 +139,8 @@ td {
 
 @media (max-width: 850px) {
   .hand__next-block::after {
-    bottom: 30px;
-    left: 315px;
+    bottom: 70px;
+    right: 0;
     background-size: 70px;
   }
 }

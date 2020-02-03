@@ -2,7 +2,9 @@
 	width: 100%;
 	height: 100vh;
 	padding: 0 50px;
-	font-family: Arcade, Arial, Helvetica, sans-serif;
+	font-family: 'Neucha', cursive, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
 	@include background-border;
 
 	@media (max-width: $tablet) {
@@ -16,7 +18,7 @@
 	&__wrapper {
 		max-width: 1300px;
 		display: grid;
-		grid-template-rows: .5fr 1fr 1fr;
+		grid-template-rows: .7fr 1fr 1fr;
 		align-items: center;
 		margin: 0 auto;
 		@media (max-width: 850px) {
